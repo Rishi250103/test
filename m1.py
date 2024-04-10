@@ -19,6 +19,10 @@ prediction=model.predict(inputs)
 if st.button("Predict"):
     st.write("the flower is : ",prediction)
     if prediction=="Iris-setosa":
-     st.image("C:\Users\DELL\Desktop\Class1\setosa.jpg")
+     st.image("setosa.jpg",width=400)
+    if prediction=="Iris-virginica":
+     st.image("virginica.jpg",width=300)
+    if prediction=="Iris-versicolor":
+     st.image("versicolor.jpeg",width=400)
 
 
